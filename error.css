@@ -1,0 +1,527 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.company_name {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5rem;
+  color: aliceblue;
+  margin-left: 3px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1327px;
+  width: 95%;
+  margin: auto;
+}
+
+ul.nav-bar-content > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+ul.nav-bar-content > li {
+  list-style: none;
+}
+
+ul.nav-bar-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyLogo > img {
+  width: 47px;
+}
+
+.navigation_bar {
+  width: 50%;
+}
+
+.companyLogo {
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background: #192135;
+  padding: 12px 0px;
+}
+
+button.get-started-path {
+  padding: 12px 33px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  outline: none;
+  border-radius: 37px;
+  border: none;
+  background: #e7005e;
+  color: #fff;
+  transition: 0.4s;
+}
+
+section.home-content {
+  background: radial-gradient(
+        39.56% 48.29% at 20% 115.78%,
+        #ff1675 0%,
+        rgba(255, 22, 121, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        54.23% 74.52% at 69.72% -10.08%,
+        #ff1675 0%,
+        rgba(255, 22, 121, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        21.67% 31.7% at 39.72% 107.79%,
+        rgba(74, 51, 209, 0.8) 0%,
+        rgba(74, 51, 209, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        40.08% 51.33% at 85.83% 24.14%,
+        rgba(74, 51, 209, 0.8) 0%,
+        rgba(74, 51, 209, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #242145;
+  padding-bottom: 50px;
+  padding-top: 63px;
+}
+.left-lang-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.left-lang-content > .single-box {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  padding: 17px 35px;
+  align-items: center;
+  border: 2px solid #d7d7d74f;
+  margin-bottom: 32px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+
+.home-container {
+  max-width: 90%;
+  padding: 13px 0px;
+  background: #080b1263;
+  border-radius: 18px;
+  padding-bottom: 79px;
+}
+.single-box > img {
+  width: 49px;
+  margin-right: 6px;
+}
+
+.single-box > span {
+  color: #fff;
+  font-size: 25px;
+}
+
+.top-heading-text > h2 {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.top-heading-text {
+  padding-top: 44px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.top-heading-text > h2 {
+  color: #fff;
+  font-size: 59px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+}
+
+.top-heading-text > p {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 12px;
+}
+.right-content {
+  width: 43%;
+  background: rgba(16 18 27 / 40%);
+  border-radius: 10px;
+  box-shadow: 0 8px 10px 2px rgba(28, 39, 54, 0.8);
+  background: rgb(22 25 37);
+  height: 390px;
+}
+
+.search-btn {
+  width: 536px;
+  margin: auto;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.search-btn > h2 {
+  color: #fff;
+  font-size: 49px;
+  margin-bottom: 6px;
+  font-family: "Nunito", sans-serif;
+}
+
+.search-btn > input {
+  padding: 15px 36px;
+  font-size: 20px;
+  border-radius: 42px;
+  border: none;
+  width: 100%;
+  box-shadow: 0 8px 10px 2px rgba(28, 39, 54, 0.8);
+}
+
+.main-lang {
+  display: flex;
+  justify-content: space-around;
+}
+
+.single-companies > img {
+  width: 250px;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 66px;
+  width: 95%;
+  margin: auto;
+}
+section.error_404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+
+.container-error {
+  width: 650px;
+  text-align: center;
+}
+
+h2.sorry_text {
+  color: #f11717;
+  font-size: 49px;
+  margin-top: 34px;
+  margin-bottom: -1px;
+}
+
+h2.sorrY_long_message {
+  font-size: 45px;
+  color: #060656;
+  margin-bottom: 12px;
+}
+
+.paragraph-message > p {
+  font-size: 16px;
+}
+
+.paragraph-message {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  line-height: 26px;
+  margin-bottom: 28px;
+  color: #636363;
+}
+
+.btn-error > button {
+  font-size: 17px;
+  padding: 11px 37px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #2b70fa;
+  border-radius: 5px;
+  color: #2b70fa;
+  transition: 0.5s;
+}
+
+.btn-error > button:hover {
+  color: #103c94;
+}
+.btn-error {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-error > button > i {
+  margin-left: 7px;
+}
+footer {
+  background: #151515;
+  padding-top: 120px;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: auto;
+}
+
+.company_logo > img {
+  width: 34px;
+}
+
+.company_logo {
+  display: flex;
+  margin-bottom: 11px;
+}
+
+.company_logo > h2 {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  font-weight: 800;
+  font-size: 25px;
+  margin-left: 6px;
+  letter-spacing: 0.03em;
+}
+
+.sec1 {
+  width: 36%;
+}
+
+.sec2 {
+  width: 19%;
+}
+
+.sec3 {
+  width: 20%;
+}
+
+.sec4 {
+  width: 12%;
+}
+
+.company_description_footer > p {
+  font-size: 15px;
+  width: 248px;
+  line-height: 21px;
+  color: #656565;
+  margin-bottom: 10px;
+}
+
+.company_description_footer > a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 27px;
+  display: inline-block;
+}
+
+ul.links > li > a {
+  text-decoration: none;
+}
+
+ul.links > li {
+  list-style: none;
+}
+
+ul.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social_links {
+  width: 44%;
+}
+
+ul.links > li {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #767676;
+}
+
+ul.links > li > a > i {
+  color: #000;
+}
+
+ul.links > li > a > i {
+  font-size: 18px;
+  transition: 1s;
+  color: #b7b7b7;
+}
+
+ul.links > li:hover {
+  background: #007bff;
+}
+
+ul.links > li:hover > a > i {
+  color: #fff;
+}
+
+.company_description_footer > p {
+  color: #ffffff;
+  margin-top: 18px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.company_description_footer > a {
+  color: #7d4add;
+  margin-bottom: 37px;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: auto;
+  border-bottom: 1px solid #302f2f;
+  padding-bottom: 50px;
+}
+.sec2 > h3 {
+  color: #3bbb96;
+  margin-bottom: 5px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.sec2 > ul > li {
+  list-style: none;
+}
+
+.sec2 > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 40px;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  position: relative;
+}
+
+.sec3 > h3 {
+  color: #ed6b22;
+  font-weight: 600;
+  margin-bottom: 5px;
+  letter-spacing: 0.02em;
+}
+
+.sec3 > ul > li {
+  list-style: none;
+}
+
+span.hover_link {
+  background: #03ef62;
+  width: 0px;
+  height: 3px;
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+ul.company_about > li:hover > a > span {
+  width: 71px;
+}
+
+.sec3 > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 40px;
+  position: relative;
+}
+
+.sec4 > h3 {
+  color: #87d9fd;
+  font-weight: 600;
+  margin-bottom: 5px;
+  letter-spacing: 0.01em;
+}
+
+.sec4 > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 40px;
+  position: relative;
+}
+
+.sec4 > ul > li {
+  list-style: none;
+}
+.last-container-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: auto;
+  padding-top: 48px;
+}
+
+.left-sec {
+  display: flex;
+  justify-content: space-between;
+  width: 42%;
+  align-items: center;
+}
+
+.andoird-div > a {
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 1px solid #7933ff;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.andoird-div > a > i {
+  margin-right: 5px;
+}
+
+.iOs-div > a > i {
+  margin-right: 6px;
+}
+
+.andoird-div > a:hover {
+  background: #7933ff;
+}
+
+.iOs-div > a:hover {
+  background: #03ef62;
+}
+
+.iOs-div > a {
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 1px solid #03ef62;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.right-sec > p {
+  font-size: 17px;
+  color: #9b9b9b;
+  letter-spacing: 0.01em;
+}
